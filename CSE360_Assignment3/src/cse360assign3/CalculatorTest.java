@@ -45,7 +45,6 @@ public class CalculatorTest
 	{
 		Calculator TI83 = new Calculator();
 		
-
 		TI83.subtract(5);
 		
 		assertEquals(-5, TI83.getTotal());
