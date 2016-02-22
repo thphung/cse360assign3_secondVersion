@@ -24,31 +24,25 @@ public class Calculator
 	}
 	
 	// Adding function of the calculator
-	public int add(int value) 
+	public void add(int value) 
 	{
 		total = total + value;
-		
-		return total;
 	}
 	
 	// Subtracting function of the calculator
-	public int subtract(int value) 
+	public void subtract(int value) 
 	{
 		total = total - value;
-		
-		return total;
 	}
 	
 	// Multiplying function of the calculator
-	public int multiply(int value) 
+	public void multiply(int value) 
 	{
 		total = total * value;
-		
-		return total;
 	}
 	
 	// Diving function of the calculator
-	public int divide(int value) 
+	public void divide(int value) 
 	{
 		if (value == 0)
 		{
@@ -58,8 +52,6 @@ public class Calculator
 		{
 			total = total / value;
 		}
-		
-		return total;
 	}
 	
 	// Contain all the history of using any mathematical methods 
